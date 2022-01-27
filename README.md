@@ -1,4 +1,5 @@
-<h1 align="center">Food delivering app 🍔</h1>
+<h1 align="center">Food delivery app 🍔</h1>
+<p align="left">My first app made with Flutter.</p>
 
 <img align="left" src="/assets/images/screen_1.jpg" width="48%" />
 <img src="/assets/images/screen_2.jpg" width="48%" />

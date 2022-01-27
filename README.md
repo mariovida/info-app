@@ -1,5 +1,7 @@
 <h1 align="center">Food delivering app 🍔</h1>
 
+![image](/assets/images/screen_1.png)
+
 <h3 align="center">🛠️ In development</h3>
 
 

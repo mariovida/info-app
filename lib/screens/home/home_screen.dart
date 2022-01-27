@@ -16,18 +16,24 @@ class HomeScreen extends StatelessWidget {
 
   AppBar buildAppBar() {
     return AppBar(
-      backgroundColor: kPrimaryColor,
-      elevation: 0,
-      leading: IconButton(
-        icon: SvgPicture.asset(
-          'assets/icons/menu2.svg',
-          height: 30,
-          width: 30,
-          // ignore: prefer_const_constructors
-          color: Color(0xFF333333),
-        ),
-        onPressed: () {},
-      ),
-    );
+        backgroundColor: kPrimaryColor,
+        elevation: 0,
+        actions: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(right: 21.0),
+            child: IconButton(
+              onPressed: () {},
+              icon: SvgPicture.asset(
+                "assets/icons/menu2.svg",
+                height: 30,
+                width: 30,
+                color: Colors.white,
+              ),
+              padding: const EdgeInsets.only(
+                top: 15,
+              ),
+            ),
+          ),
+        ]);
   }
 }
